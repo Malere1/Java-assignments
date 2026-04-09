@@ -5,7 +5,7 @@ public class Daysoftheweek {
 public static void main(String[]args) {
 
 Scanner input=new Scanner(System.in);
-
+  
 System.out.println("enter number(0-7)");
 int number = input.nextInt() ;
 
