@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Formart {
+
+public static void main(String[]args) {
+
+Scanner input=new Scanner(System.in);
+
+System.out.println("Enter hour1");
+int hour1=input.nextINT();
+
+System.out.println("Enter minute");
+int minute =input.nextINT();
+
+System.out.println("Enter hour2");
+int hour2=input.nextINT();
+
+System.out.println("Enter minute2");
+int minute2 =input.nextINT();
+
+int sum=hour1 + hour2;
+System.out.println(sum);
+
+int sum=minute1+ minute2;
+System.out.println(sum);
+
+
+}
+
+
+
+
+
+}
